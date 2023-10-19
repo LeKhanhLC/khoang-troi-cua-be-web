@@ -102,7 +102,7 @@ const News: NextPage<Props> = ({ news, rightOtherNews, bottomOtherNews }) => {
           </section>
         </Container>
       </Stack>
-      <Stack width="100%" alignItems="center">
+      <Stack alignItems="center" px={7}>
         <SlideNews slideNewsData={slideNewsData} />
       </Stack>
     </>
